@@ -1,0 +1,28 @@
+,Reference,Qty,Value in kit,Value range,Note,Footprint
+connect with wires,volume control potentiometer,1,100K linear or log,,,
+,stereo jack audio output,1,6.3 mm stereo jack,optionally 3.5 mm,can use mono jack plus on/off switch,
+,wire,3-4 m,26 awg stranded,24-26 awg,,
+,extra buttons,0+,momentary button (normally OFF),,"connect to solder points labeled J1-J13, try ",
+,"SW1,SW2,SW3",3,momentary button (normally ON),,,CONN_1x02_P5mm
+,"RV4,RV5,RV6,RV7,RV8,RV9",6,1M linear/photoresistor,,,CONN_1x02_P2.54mm
+,RV3,1,,,,CONN_1x02_P2.54mm
+,RV2,1,10K linear,,,CONN_1x02_P2.54mm
+,9V battery ,1,,,,
+,9V battery holder,1,,,,
+,9V battery clip,1,,,,
+on board,DIP socket 14 pin,2,,,,Package_DIP:DIP-14_W7.62mm_Socket_LongPads
+,DIP socket 16 pin,1,,,,Package_DIP:DIP-16_W7.62mm_Socket_LongPads
+,U1,1,CD40106,,,Package_DIP:DIP-14_W7.62mm
+,U2,1,CD4070 or CD4030,,,Package_DIP:DIP-14_W7.62mm
+,U3,1,CD4040,,,Package_DIP:DIP-16_W7.62mm
+,RV1,1,500R trimmer,under 1K,,Potentiometer_THT:Potentiometer_Runtron_RM-065_Vertical
+,"R1,R2,R3,R4,R5,R6",6,10K,1K-47K,,RES_0.25watt_L3.6mm_D1.6mm_P7.62mm_Horizontal
+,"R7,R8,R9,R10",4,10K,4.7K-22K,,RES_0.25watt_L3.6mm_D1.6mm_P7.62mm_Horizontal
+,R11,1,47K,,,RES_0.25watt_L3.6mm_D1.6mm_P7.62mm_Horizontal
+,D1,1,4007,4001 or similar,,DIODE_DO-35_SOD27_P7.62mm_Horizontal
+,"D2,D3,D4",3,4148,optionally LEDs,,DIODE_DO-35_SOD27_P7.62mm_Horizontal
+,C1,1,3300 uF electrolytic,1000-4700 uF,,Capacitor_THT:CP_Radial_D13.0mm_P5.00mm
+,"C2,C3,C4",3,10 nF ceramic,10-100 nF,,C_MLCC_D4.3mm_W1.9mm_P5.00mm
+,"C5,C6,C7",3,1 or 2.2 uF electrolytic,10 nF - 22 uF,get DPDT lever switches to make oscillator range selectable,CP_Electro_Radial_D5.0mm_P2.50mm
+,"C8,C9,C10",3,10 nF ceramic,4.7-47 nF,,C_MLCC_D4.3mm_W1.9mm_P5.00mm
+,C11,1,22 uF electrolytic ,10-47 uF,,CP_Electro_Radial_D5.0mm_P2.50mm
